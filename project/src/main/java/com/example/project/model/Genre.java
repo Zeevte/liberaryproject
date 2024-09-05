@@ -1,6 +1,6 @@
 package com.example.project.model;
 
-public enum Ganer {
+public enum Genre {
 
     Comic,
     Adults,

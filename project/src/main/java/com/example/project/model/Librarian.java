@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-public class liberarian {
+public class Librarian {
 
     @Id
     @GeneratedValue
@@ -21,9 +21,9 @@ public class liberarian {
     @OneToMany
     private List<Customer> customers  = new ArrayList<Customer>();
 
-    public liberarian() {}
+    public Librarian() {}
 
-    public liberarian(List<Customer> customers, List<Book> books, String name) {
+    public Librarian(List<Customer> customers, List<Book> books, String name) {
         this.customers = customers;
         this.books = books;
         this.name = name;
